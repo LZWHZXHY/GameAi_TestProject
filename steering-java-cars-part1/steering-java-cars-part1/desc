@@ -1,0 +1,6 @@
+I first created a Vector2D class to handle all Vector calculations.
+
+Then I implemented seekController by calling the data in Vector2D, and then implemented ArriveController by inheriting seekController.
+
+However, at first, I found that the car would keep rubbing back and forth on the edge of the target.
+I didn't know what to do, so I asked him. After been told that this was an acceptable behavior, I modified the arrive radius and submitted it directly.
